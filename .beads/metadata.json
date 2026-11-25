@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "my_application_backup",
+  "project_id": "23364b1e-7c7f-47ac-89bd-f037ea652065"
+}
