@@ -1,5 +1,24 @@
 # Agent Instructions
 
+## Start project work in Beads
+
+Open a Beads issue before carrying out a user-assigned project task. Answer
+ordinary questions and status requests directly.
+
+1. From the project root, run `bd where` and verify the workspace belongs to
+   this project. Use the issue ID supplied by the user or already confirmed
+   for this task. For new work, look for a matching active issue with
+   `bd search`, then use `bd --json create` with a title and description if
+   none exists. Use `bd ready` if the user asks you to pick available work.
+2. Open the issue with `bd show <id>` and verify it matches the task. Run
+   `bd update <id> --claim` when taking ownership. Keep your existing claim
+   when resuming. Tell the user the verified ID before starting the work.
+3. If Beads is unavailable or any required step fails, stop before starting
+   the work and report the failing command and its error. If creation may
+   have succeeded, search for the issue before retrying.
+4. After verifying the requested outcome, close the issue with `bd close <id>`
+   and confirm its status with `bd show <id>`. Keep unfinished work open.
+
 This project uses **bd** (beads) for issue tracking. Run `bd prime` for full workflow context.
 
 > **Architecture in one line:** Issues live in a local Dolt database

@@ -1,5 +1,11 @@
 # Project Instructions for AI Agents
 
+## Start project work in Beads
+
+Before carrying out a user-assigned project task, read and follow
+[Start project work in Beads](AGENTS.md#start-project-work-in-beads).
+Verify the issue in Beads and give the user its ID before starting the work.
+
 This file provides instructions and context for AI coding agents working on this project.
 
 <!-- BEGIN BEADS INTEGRATION v:1 profile:minimal hash:1105d646 -->
